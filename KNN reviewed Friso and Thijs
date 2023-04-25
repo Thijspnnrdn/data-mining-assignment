@@ -1,3 +1,10 @@
+The changes that were made
+
+In line 33, 'import pandas as' has been changed to 'import pandas as pd'.
+In line 63, 'rawDF = read_csv(url)' has been changed to 'rawDF = pd.read_csv(url)'
+In line 87, 'diagcount = cleanDF['Outcome'].value_counts()' has been changed to 'diag_count = cleanDF['Outcome'].value_counts()'
+In line 117, 'excluded_cols = ['out']' has been changed to 'excluded_cols = ['Outcome']'
+in line 124, 'print(summary)' has been changed to 'print(summary_stats)'
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
